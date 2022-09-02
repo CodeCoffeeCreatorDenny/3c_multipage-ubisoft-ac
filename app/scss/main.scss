@@ -1,0 +1,44 @@
+@import "reset";
+@import "vars";
+@import "fonts";
+@import "mixins";
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+input, textarea {
+	outline: none;
+	&:focus:required:invalid {
+		border-color: red;
+	}
+	&:required:valid {
+		border-color: green;
+	}
+}
+
+* {
+	outline: none;
+}
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	// position: relative;
+	// line-height: 1.65;
+	font-family: 'Roboto', sans-serif;
+	// overflow-x: hidden;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	color: $white;
+}
+
+.container {
+	@include min-max(320px, 100%, 0);
+	background: $primary;
+}

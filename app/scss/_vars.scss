@@ -1,0 +1,35 @@
+// User variables:
+$accent: orange;
+
+$black: #000;
+$white: #fff;
+$red: #f00;
+
+$primary: #e9eae2;
+$second: #0277bd;
+$thirty: #d69f30;
+$colorText: #333333;
+$activeTextColor: #f5be51;
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 20px;
+$gutter: $grid-gutter-width;
+
+// hamburger vars
+$hamburgerColor: #e9eae2;
+$hamburgerColorActive: #f8c255;
+
+// menu vars
+$menuBg: #f8c255;
+
+// projects vars
+$bgThree: #dfe0d9;
+$bgFour: #f7f7f3;
+$bgSix: #eaeaea;
+$bgEight: #fcfcfc;
+$bgNine: #cecece;
+
+// // Breakpoints mixin settings (node_modules/bootstrap/scss/mixins/_breakpoints.scss)
+// // Example: +media-breakpoint-down(xs) - ≥576px / +media-breakpoint-up(sm) - // ≤576px
+// // Default variables: node_modules/bootstrap/scss/_variables.scss
+// $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
